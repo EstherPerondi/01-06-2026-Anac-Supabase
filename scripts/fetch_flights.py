@@ -4,8 +4,8 @@ Busca voos do dia via API SIROS e insere/atualiza no Supabase.
 Nao salva mais arquivos JSON no repositorio.
 
 Variaveis de ambiente (GitHub Secrets):
-  SUPABASE_URL         -> https://totbzlwttoxgbisomzzh.supabase.co
-  SUPABASE_SERVICE_KEY -> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvdGJ6bHd0dG94Z2Jpc29tenpoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3OTA2OTA0MCwiZXhwIjoyMDk0NjQ1MDQwfQ.f0zhCenfDJ7Y7MB7sSTyd6RwTmkSH5rp-S1O0RTnJNY 
+  SUPABASE_URL         -> URL do projeto Supabase (ex: https://XXXX.supabase.co)
+  SUPABASE_SERVICE_KEY -> service_role key (acesso total para escrita)
 
 Variaveis de ambiente (GitHub Variables):
   AIRPORTS             -> ICAOs separados por virgula (ex: SBCA,SBGR,SBCT)
